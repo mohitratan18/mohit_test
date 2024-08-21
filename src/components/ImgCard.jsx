@@ -10,7 +10,8 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 const ImgCard = () => {
   return (
     <div className="p-3">
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }} onClick={()=>console.log("hello")
+    }>
       <CardActionArea>
         <CardMedia
           component="img"
